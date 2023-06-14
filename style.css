@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(148, 148, 243);
+    font: normal 15px Arial;
+}
+
+header {
+    color: rgb(86, 87, 95);
+    text-align: center;
+    background: rgb(247, 242, 242);
+    border-radius: 10px;
+    width: 150px;
+    margin: auto;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.527);
+}
+
+section {
+    background: rgb(247, 242, 242);
+    border-radius: 10px;
+    padding: 15px;
+    /* abaixo é uma largura fixa e o objeto centralizado */
+    width: 500px;
+    margin: auto;
+    /* 1º deslocamento lateral; 2º deslocamento vertical; 3º espalhamento */
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.527);
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#contentResult {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#contentResult {
+    margin-top: 20px;
+    
+}
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}

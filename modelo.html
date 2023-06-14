@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- OBJETIVO: Gerador de tabuada, contendo um input number, que poderá receber 0 ou números negativos; um submit para gerar a resposta; e um Select/lista que irá mostrar a tabuada gerada -->
+
+    <header>
+        <h1>
+            Tabuada
+        </h1>
+    </header>
+
+    <section>
+        <div id="form">
+            Número:<input type="number" id="numberForm">
+            <input type="button" value="Gerar Tabuada" onclick="gerar()">
+            <input type="button" value="Limpar" onclick="reset()">
+        </div>
+        <div id="contentResult">
+            <textarea name="result" id="result" cols="30" rows="10">Insira um número acima...</textarea>
+            <!-- <select name="result" id="result" size="10"></select> -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; by Ludimilla de Oliveira</p>
+    </footer>
+
+    <script src="/aula14ex/ex017-tabuada/script.js"></script>
+</body>
+</html>
